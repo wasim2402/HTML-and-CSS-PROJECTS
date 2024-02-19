@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color:rgb(31, 12, 31);
+    color: white;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 60px;
+    position: fixed;
+    top: 0; 
+    /* margin-bottom: 100px; */
+    z-index: 200;
+    background-color: rgb(26, 9, 26);
+    padding-bottom: 12px;
+    padding-top: 6px;
+
+}
+.left-side{
+    width: 40%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    left:0;
+}
+.logo{
+    background-image: url(Zee5Png.png);
+    position: relative;
+    float: left;
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.left-side ul{
+    list-style: none;
+
+}
+.left-side ul a{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+}
+.right-side{
+    width: 55%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.right-side .search-bar{
+    width: 285px;
+    border:1.5px solid gray;
+    border-radius: 4px;
+    padding: 2px;
+}
+.right-side .search-bar:hover{
+    width: 300px;
+}
+.right-side input{
+    font-size:0.75rem;
+    background: transparent;
+    border: none;
+    height: 35px;
+    width: 250px;
+    border-radius: 4px;
+    color: white;
+}
+.right-side .search-icon{
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+.right-side .search-icon i{
+    font-size:1.3rem;
+    padding: 6px;
+}
+.right-side h3{
+    font-size: 1rem;
+    margin-left:25px;
+}
+.right-side span{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+#login-btn{
+    height: 35px;
+    width: 60px;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    font-weight: 700;
+    background: transparent;
+    color: white;
+    margin-left: 25px;
+}
+#login-btn:hover{
+    background-color: white;
+    color: black;
+}
+#buy-btn{
+    height: 37px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color:#8230C6;
+    color: white;
+    margin-left: 25px;
+    padding: 5px;
+}
+#buy-btn:hover{
+    background-color: #8311e0;
+}
+#buy-btn i{
+    font-size:0.85rem;
+    padding-right:7px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* *........HERO-SECTION.........* */
+.hero-page{
+    background-image: url(Zee5Hero.jpg);
+    height:70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-page .btns{
+    position: relative;
+    top: 400px;
+    left: 50px;
+}
+#watch-btn{
+    height: 35px;
+    width: 75px;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    font-weight: 700;
+    background: transparent;
+    color: white;
+}
+#watch-btn:hover{
+    background-color: white;
+    color: black;
+}
+/* *........MAIN-SECTION.........* */
+.main-section{
+    width: 100%;
+    height: 70vh;
+    margin-top: 20px;
+}
+.main-section .box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.main-section h3{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}.main-section .card{
+    height:350px;
+    width: 250px;
+    border-radius: 6px;
+    background-image: url(movie1.png);
+    margin-left:20px;
+    background-size: cover;
+}
+.main-section .card:hover{
+    height: 360px;
+    /* width: 260px; */
+    border: 2px solid white;
+    border-radius: 6px;
+}
+/* *........FOOTER-SECTION.........* */
+.footer-panel{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    color: white;
+    font-weight: 700;
+}
+.footer-panel a{
+    margin-top: 10px;
+    text-decoration: none;
+    display:block;
+    color: #dddddd;
+    font-size: 0.85rem;
+}
+.footer2{
+    height: 20px;
+    margin-top: 5px;
+    color: gray;
+    text-align: center;
+}
